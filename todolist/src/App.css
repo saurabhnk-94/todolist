@@ -1,0 +1,56 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+    padding: 10px;
+    background-color: gray;
+}
+
+.main-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputHolder {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid yellow;
+    align-items: center;
+}
+
+.character {
+    border: 4px solid blue;
+    color: white;
+}
+
+.box {
+    display: flex;
+    flex: 1;
+}
+
+.button {
+    display: flex;
+    margin-left: 10px;
+}
+
+.todolist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 2px solid yellow;
+    margin-top: 20px;
+}
+
+span {
+    width: 50vw;
+    word-break: break-all;
+    padding-right: 10px;
+}
+
+.strikebox:checked+span {
+    text-decoration: line-through;
+}
