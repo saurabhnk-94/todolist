@@ -21,4 +21,14 @@ Start the application:
 npm start
 ```
 
+Using redux I have mainted my state in another folder. To check that implementation:
+Get into to-do-list folder:
+```
+cd to-do-list
+```
+Start the application:
+```
+npm start
+```
+
 I hope you liked this application.
