@@ -12,6 +12,10 @@ Clone this Repo:
 ```
 https://github.com/saurabhnk-94/todolist.git
 ```
+Get inside the todolist folder:
+```
+cd todolist
+```
 Start the application:
 ```
 npm start
